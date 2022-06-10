@@ -1,4 +1,24 @@
+@import url(../vendor/normalize.css);
+
 @import url(../blocks/root/root.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/line/line.css);
+
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/avatar/avatar.css);
+@import url(../blocks/ellipse/ellipse.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__vector/profile__vector.css);
+@import url(../blocks/__button/edit__button.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__profession/profile__profession.css);
+@import url(../blocks/__button/add__button.css);
+@import url(../blocks/profile/__vector/add__vector.css);
+
+@import url(../blocks/elements/elements.css);
+@import url(../blocks/element/element.css);
+@import url(../blocks/mask-group/mask-group.css);
+@import url(../blocks/element/__text/element__text.css);
+@import url(../blocks/element/__city/element__city.css);
+@import url(../blocks/element/__like/element__like.css);
