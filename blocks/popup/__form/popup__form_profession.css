@@ -1,0 +1,10 @@
+.popup__form_profession {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.1;
+    border: none;
+    width: 358px;
+    margin: 30px auto 0;
+}

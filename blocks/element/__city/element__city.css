@@ -5,4 +5,7 @@
     line-height: 1.1;
     color: #000;
     margin-left: 21px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }

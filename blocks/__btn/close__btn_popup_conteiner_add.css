@@ -1,0 +1,13 @@
+.close__btn_popup_active_add {
+    background-image: url(../../images/CloseIcon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    border: none;
+    margin: auto;
+    float: right;
+    top: -40px;
+    right: -40px;
+}

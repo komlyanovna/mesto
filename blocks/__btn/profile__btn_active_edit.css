@@ -1,0 +1,7 @@
+.profile__btn_active_edit {
+    box-sizing: border-box;
+    border: 1px solid #FFF;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/Vectorpng.png);
+}

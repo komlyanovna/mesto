@@ -23,18 +23,17 @@
             </div>
             <div class="profile__info">
                 <h1 class="profile__name">Жак-Ив Кусто</h1>
-                <div class="edit__button">
-                    <img class="profile__vector" src="images/Vectorpng.png" alt="Редактировать профиль">
-                </div>
+                <button class="profile__btn profile__btn_active_edit" title="Редактировать">
+                </button>
                 <p class="profile__profession">Исследователь океана</p>
             </div>
-            <div class="add__button">
-                <img class="add__vector" src="images/Vector+.png" alt="Добавить">
-            </div>
-        </section>
+            <button class="profile__btn profile__btn_active_add" title="Добавить">
 
+            </button>
+        </section>
         <section class="elements">
             <div class="element">
+
                 <img class="mask-group" src="images/kirill-pershin-1088404-unsplash.png" alt="Карачаевск">
                 <div class="element__text">
                     <h2 class="element__city">Карачаевск</h2>
@@ -73,16 +72,34 @@
                     <img class="element__like" src="images/Vector-like.png" alt="Лайк">
                 </div>
             </div>
-            
+
             <div class="element">
                 <img class="mask-group" src="images/kirill-pershin-1088404-unsplash.png" alt="Карачаевск">
                 <div class="element__text">
-                    <h2 class="element__city">Карачаево-Ч...</h2>
+                    <h2 class="element__city">Карачаево-Черкессия</h2>
                     <img class="element__like" src="images/Vector-like.png" alt="Лайк">
                 </div>
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2020 Mesto Russia</p>
+    </footer>
+    <div class="popup">
+        <div class="popup__overlay"></div>
+
+        <div class="popup__container">
+            <button name="close__button" class="close__btn close__btn_popup_active_add" type="button"></button>
+            <form class="popup__form">
+                <p class="popup__edit">Редактировать профиль</p>
+                <input type="text" class="popup__form_name" name="popup__name">
+                <hr class="line__form">
+                <input type="text" class="popup__form_profession" name="popup__profession">
+                <hr class="line__form">
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>

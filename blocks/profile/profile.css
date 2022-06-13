@@ -3,4 +3,7 @@
     margin: 40px auto 0;
     border: 1px solid red;
     display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: flex-end;
 }
