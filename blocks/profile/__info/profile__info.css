@@ -1,7 +1,6 @@
 .profile__info {
     margin: 22px auto auto 30px;
     max-width: 336px;
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
