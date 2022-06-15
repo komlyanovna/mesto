@@ -17,6 +17,7 @@ let profileProfession = profileInfo.querySelector('.profile__profession');
 let formElement = document.querySelector('.popup__form');
 let nameInput = formElement.querySelector('.popup__form_name');
 let jobInput = formElement.querySelector('.popup__form_profession');
+
 function formSubmitHandler(evt) {
   evt.preventDefault();
   profileName.textContent = nameInput.value;
@@ -27,5 +28,3 @@ formElement.addEventListener('submit', formSubmitHandler)
 
 nameInput.value = profileName.textContent;
 jobInput.value = profileProfession.textContent;
-
-
