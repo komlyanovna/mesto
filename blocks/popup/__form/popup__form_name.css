@@ -8,3 +8,10 @@
     width: 358px;
     margin: 54px auto 0;
 }
+
+@media screen and (max-width: 620px) {
+    .popup__form_name {
+        margin: 75px auto 0;
+        width: 238px;
+    }
+}

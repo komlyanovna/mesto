@@ -12,3 +12,9 @@
     -moz-text-size-adjust: 100%;
     font-family: 'inter', 'Arial', 'Hevletica', 'sans-serif';
 }
+
+@media screen and (max-width: 620px) {
+    .root {
+        width: 100%;
+    }
+}

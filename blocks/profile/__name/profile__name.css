@@ -1,6 +1,5 @@
 .profile__name {
     max-width: 294px;
-    width: 100%;
     margin: 0;
     font-style: normal;
     font-weight: 500;
@@ -8,4 +7,11 @@
     line-height: 1.1;
     color: #FFF;
     align-self: center;
+}
+
+@media screen and (max-width: 620px) {
+    .profile__name {
+        font-size: 27px;
+        margin-right: 10px;
+    }
 }

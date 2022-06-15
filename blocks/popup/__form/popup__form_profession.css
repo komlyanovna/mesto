@@ -8,3 +8,10 @@
     width: 358px;
     margin: 30px auto 0;
 }
+
+@media screen and (max-width: 620px) {
+    .popup__form_profession {
+        margin: 43px auto 0;
+        width: 238px;
+    }
+}

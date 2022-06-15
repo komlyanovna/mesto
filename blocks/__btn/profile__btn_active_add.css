@@ -1,5 +1,5 @@
 .profile__btn_active_add {
-    max-width: 150px;
+    width: 150px;
     margin: auto 0 auto auto;
     border: 2px solid #FFF;
     border-radius: 2px;
@@ -8,4 +8,15 @@
     background-repeat: no-repeat;
     width: 150px;
     height: 50px;
+}
+
+.profile__btn_active_add:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 620px) {
+    .profile__btn_active_add {
+        width: 282px;
+        margin: 36px 0 0;
+    }
 }

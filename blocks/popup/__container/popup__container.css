@@ -8,3 +8,8 @@
     position: relative;
     margin: auto;
 }
+@media screen and (max-width: 620px) {
+    .popup__container {
+        width: 282px;
+    }
+}

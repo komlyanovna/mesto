@@ -3,3 +3,9 @@
     margin: 45px auto 0;
     border: 1px solid red;
 }
+
+@media screen and (max-width: 620px) {
+    .header {
+        width: 100%;
+    }
+}
