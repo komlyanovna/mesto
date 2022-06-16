@@ -1,0 +1,17 @@
+.popup__form-profession {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.1;
+    border: none;
+    width: 358px;
+    margin: 30px auto 0;
+}
+
+@media screen and (max-width: 620px) {
+    .popup__form-profession {
+        margin: 43px auto 0;
+        width: 238px;
+    }
+}
