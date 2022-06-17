@@ -1,0 +1,18 @@
+.profile__btn_active_edit {
+    box-sizing: border-box;
+    border: 1px solid #FFF;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../images/Vectorpng.png);
+}
+
+.profile__btn_active_edit:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 620px) {
+    .profile__btn_active_edit {
+        width: 18px;
+        height: 18px;
+    }
+}
