@@ -1,0 +1,13 @@
+.element__like {
+    height: 19px;
+    width: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+    background-image: url(../../../images/Vectorlike.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
