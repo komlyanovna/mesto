@@ -1,0 +1,16 @@
+.profile__info {
+    margin: 22px auto auto 30px;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: baseline;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 620px) {
+    .profile__info {
+        justify-content: center;
+        margin: 22px auto 0;
+    }
+}
