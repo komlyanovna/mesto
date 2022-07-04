@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devace-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <meta name="mesto" content="Interactive page">
+    <meta name="author" content="Ирина Горшкова">
+    <link rel="stylesheet" href="pages/index.css" type="text/css">
+</head>
+
+<body class="root">
+    <header class="header">
+        <img class="logo" src="images/VectorsvgLogo.svg" alt="Логотип">
+    </header>
+
+    <main class="main">
+        <section class="profile">
+            <img class="profile__avatar" src="images/image.png" alt="аватар">
+            <div class="profile__info">
+                <div class="profile__description">
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <button type="button" class="button profile__button-edit" title="Редактировать"
+                        aria-label="Редактировать профиль">
+                    </button>
+                </div>
+                <p class="profile__profession">Исследователь океана</p>
+            </div>
+            <button type="button" class="button profile__button-add" title="Добавить" aria-label="Добавить">
+            </button>
+        </section>
+        <section class="elements">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2020 Mesto Russia</p>
+    </footer>
+
+    <div class="popup popup__form_profile">
+        <div class="popup__container">
+            <button name="close__button" class="popup__close-btn popup__close-btn_profile" type="button"
+                aria-label="Закрыть"></button>
+            <form class="popup__form" name="form-name">
+                <h2 class="popup__edit">Редактировать профиль</h2>
+                <input type="text" class="popup__form-input popup__form-input_user_name" name="popup__name">
+                <input type="text" class="popup__form-input popup__form-input_user_profession" name="popup__profession">
+                <button class="popup__button" type="submit">Сохранить</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="popup popup__form_card">
+        <div class="popup__container popup__container_card">
+            <button name="close__button" class="popup__close-btn popup__close-btn_place" type="button"
+                aria-label="Закрыть"></button>
+            <form class="popup__form popup__form_place" name="form-name">
+                <h2 class="popup__edit popup__edit_place">Новое место</h2>
+                <input type="text" class="popup__form-input popup__form-input_place_title" name="popup__title"
+                    placeholder="Название">
+                <input type="text" class="popup__form-input popup__form-input_place_link" name="popup__link"
+                    placeholder="Ссылка на картинку">
+                <button class="popup__button popup__button-create" type="submit">Создать</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="popup popup__template">
+        <div class="popup__container popup__container-element">
+            <button name="close__button" class="popup__close-btn popup__close-btn_element" type="button"
+                aria-label="Закрыть"></button>
+            <img class="popup__img" alt="Картинка">
+            <figcaption class="popup__title"></figcaption>
+        </div>
+    </div>
+
+    <template class="template">
+        <div class="element">
+            <div class="element__trash"></div>
+            <img class="element__image">
+            <div class="element__text">
+                <h2 class="element__city"></h2>
+                <button class="element__like" type="button"></button>
+            </div>
+        </div>
+</template>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
