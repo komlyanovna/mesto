@@ -1,0 +1,12 @@
+.popup__container-element {
+    max-width: 816px;
+    min-width: 433px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 620px) {
+    .popup__container-element {
+        max-width: 240px;
+        min-width: 0;
+    }
+}
