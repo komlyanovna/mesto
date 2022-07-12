@@ -1,0 +1,12 @@
+.element {
+    margin: 0 auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    display: grid;
+    cursor: pointer;
+}
+
+.element:hover {
+    opacity: 0.5;
+    transition: all .4s ease;
+}
